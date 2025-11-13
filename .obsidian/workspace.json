@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Academic/Management Information System/Daily Task/Quiz.md",
+                "file": "Management Information System/Daily Task/Quiz.md",
                 "mode": "source",
                 "source": false
               },
@@ -183,18 +183,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "0ea0e707f842f0ed",
+  "active": "5c92177f49a442b7",
   "lastOpenFiles": [
     "Untitled.md",
-    "Academic/Management Information System/Daily Task/Quiz.md",
-    "Academic/Management Information System/Daily Task",
+    "Management Information System/Daily Task/Quiz.md",
+    "Management Information System/Daily Task",
     "Untitled",
     "Development",
     "Academic",
-    "Academic/Data Mining",
-    "Academic/Microprocessor & Assembly Language Lab",
-    "Academic/Microprocessor & Assembly Language",
-    "Academic/Cryptography",
-    "Academic/Management Information System"
+    "Data Mining",
+    "Microprocessor & Assembly Language Lab",
+    "Microprocessor & Assembly Language",
+    "Cryptography",
+    "Management Information System"
   ]
 }
