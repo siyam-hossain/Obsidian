@@ -1,0 +1,84 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "JicSvpm8wq9UIjrRT9ylr",
+      "name": "dark pink",
+      "value": "#b24d4d"
+    },
+    {
+      "id": "is2Ubt7iAUvAC0xQnJ74R",
+      "name": "dark mustered",
+      "value": "#c87a4c"
+    },
+    {
+      "id": "OmqDycMQvjzQml8932TGO",
+      "name": "light mustered",
+      "value": "#dec463"
+    },
+    {
+      "id": "3arGtQsbFaWlLONDgKRAt",
+      "name": "light cyan",
+      "value": "#80cba4"
+    },
+    {
+      "id": "6YZ3M9z14P3eWiXo1-8SE",
+      "name": "light lemon",
+      "value": "#c3db79"
+    },
+    {
+      "id": "Pvx6IT34kKCKCOg7EKdlv",
+      "name": "dark green",
+      "value": "#1b7e4d"
+    },
+    {
+      "id": "oAUQsZr9X6nYoslRKQfMz",
+      "name": "django",
+      "value": "#092e20"
+    },
+    {
+      "id": "Z9YRLUvTlNgANHEwhBcAR",
+      "name": "android",
+      "value": "#43a047"
+    },
+    {
+      "id": "bGcLx-ILk5K1y-TnEV3-m",
+      "name": "java",
+      "value": "#ed8b00"
+    },
+    {
+      "id": "_71SLgCA70gbya02RQthm",
+      "name": "AI ML",
+      "value": "#0066cc"
+    },
+    {
+      "id": "ZkLwGSnsTW-GVZ2L84DJn",
+      "name": "RAG",
+      "value": "#9333ea"
+    },
+    {
+      "id": "TqR5CxMVpLswfLsEfkiLf",
+      "name": "Black",
+      "value": "#000000"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Django",
+      "color": "TqR5CxMVpLswfLsEfkiLf"
+    },
+    {
+      "path": "Java/Spring Boot/Part 1/002-Dependency-Injection/003-Setter Injection.md",
+      "color": "TqR5CxMVpLswfLsEfkiLf"
+    },
+    {
+      "path": "Java/Spring Boot/Part 1/002-Dependency-Injection/004-Method Injection.md",
+      "color": "TqR5CxMVpLswfLsEfkiLf"
+    },
+    {
+      "path": "Java/Spring Boot/Part 1/002-Dependency-Injection/005-The Spring IoC Container.md",
+      "color": "TqR5CxMVpLswfLsEfkiLf"
+    }
+  ]
+}

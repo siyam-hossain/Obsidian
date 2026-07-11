@@ -1,0 +1,128 @@
+{
+  "styles": {
+    "Java": {
+      "backgroundColor": "#f89820",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Django": {
+      "backgroundColor": "#092e20",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Android Studio": {
+      "backgroundColor": "#3ddc84",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "AI ML": {
+      "backgroundColor": "#0053d6",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "RAG": {
+      "backgroundColor": "#9333ea",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Java/Spring Boot": {
+      "backgroundColor": "#6db33f",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    },
+    "Research": {
+      "backgroundColor": "#ac2043",
+      "isBold": false,
+      "applyToSubfolders": true,
+      "applyToFiles": true
+    }
+  },
+  "presets": {
+    "django": {
+      "backgroundColor": "#092e20",
+      "textColor": "#ffffff",
+      "isBold": true,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    },
+    "android": {
+      "backgroundColor": "#3ddc84",
+      "textColor": "#000000",
+      "isBold": true,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    },
+    "AI ML": {
+      "backgroundColor": "#0053d6",
+      "textColor": "#ffffff",
+      "isBold": true,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    },
+    "java": {
+      "backgroundColor": "#f89820",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    },
+    "RAG": {
+      "backgroundColor": "#9333ea",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    },
+    "spring boot": {
+      "backgroundColor": "#6db33f",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    }
+  },
+  "presetOrder": [
+    "django",
+    "android",
+    "AI ML",
+    "java",
+    "RAG",
+    "spring boot"
+  ]
+}
