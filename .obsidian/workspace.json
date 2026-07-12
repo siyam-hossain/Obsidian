@@ -13,29 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Research/002-Paper Findings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
-            }
-          },
-          {
-            "id": "e66f24d4da484c7f",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Research/001-Pipe Line.canvas",
-                "viewState": {
-                  "x": -56,
-                  "y": -51.5,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "001-Pipe Line"
+              "title": "002-Paper Findings"
             }
           }
         ]
@@ -254,11 +237,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ba8efbae56b021b3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Dashboard.md",
     "Research/001-Pipe Line.canvas",
     "Research/002-Paper Findings.md",
+    "Dashboard.md",
     "Excalidraw/Drawing 2026-07-11 19.44.47.excalidraw.md",
     "Excalidraw",
     "Research",
