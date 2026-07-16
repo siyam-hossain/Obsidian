@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Research/002-Paper Findings.md",
+                "file": "SpringBoot Project/001-Responsive Information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "002-Paper Findings"
+              "title": "001-Responsive Information"
             }
           }
         ]
@@ -239,9 +239,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Research/001-Pipe Line.canvas",
-    "Research/002-Paper Findings.md",
     "Dashboard.md",
+    "SpringBoot Project/001-Responsive Information.md",
+    "SpringBoot Project",
+    "Java/Spring Boot/Part 3 - Thymeleaf",
+    "Research/002-Paper Findings.md",
+    "Research/001-Pipe Line.canvas",
     "Excalidraw/Drawing 2026-07-11 19.44.47.excalidraw.md",
     "Excalidraw",
     "Research",
@@ -276,8 +279,6 @@
     "Java/Spring Boot/001-able of content.md",
     "Java/Spring Boot/Part 1/001-Getting-Started-With-Spring-Boot",
     "Java/Spring Boot/Part 1",
-    "Java/Basic Java",
-    "Java/Spring Boot",
-    "Django/006-Data-and-Models"
+    "Java/Basic Java"
   ]
 }

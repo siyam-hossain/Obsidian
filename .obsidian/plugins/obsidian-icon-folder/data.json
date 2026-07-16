@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiFolder",
       "LiFileText",
       "SiCanvas",
       "SiResearchgate",
-      "TiLayoutDashboard",
-      "TiPng"
+      "TiLayoutDashboard"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -65,5 +65,7 @@
   "Dashboard.md": "TiLayoutDashboard",
   "Research": "SiResearchgate",
   "Research/001-Pipe Line.canvas": "SiCanvas",
-  "Research/002-Paper Findings.md": "LiFileText"
+  "Research/002-Paper Findings.md": "LiFileText",
+  "Java/Spring Boot/Part 1": "TiFolder",
+  "Java/Spring Boot/Part 3 - Thymeleaf": "TiFolder"
 }
