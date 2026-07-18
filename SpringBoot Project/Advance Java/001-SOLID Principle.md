@@ -1,4 +1,5 @@
 # Advanced principles of Object Oriented Design (OOD)
+
 ODD are guidelines that help developers design software that is **maintainable, scalable, reusable, and easy to modify**.
 
 ### SOLID Principle
@@ -9,15 +10,18 @@ ODD are guidelines that help developers design software that is **maintainable, 
 | L   | Liskov substitution principle   |
 | I   | Interface segregation principle |
 | D   | Dependency inversion principle  |
+
 ### Single Responsibility principle (SRP)
 
 **Definition**
 The Single Responsibility Principle (SRP) is the first principle of the SOLID principles of ODD. It sates:
+
 > A class should have only one responsibility, or one reason to change.
 
 This means a class should perform only one specific task. If a class has multiple responsibilities, changes in one responsibility may affect the others, making the code harder to maintain.
 
 **Characteristics of SRP**
+
 1. One responsibility per class: each class should focus on a single job.
 2. One reason to change: A class should change only when its specific responsibility changes.
 3. High cohesion: The methods and variables in a class are closely related to one purpose.
@@ -25,6 +29,7 @@ This means a class should perform only one specific task. If a class has multipl
 5. Better maintainability: Small, focused classes are easier to understand and update.
 
 **Advantages**
+
 1. Improves code readability.
 2. Makes code easier to maintain.
 3. Simplifies testing because each class has a single purpose.
@@ -33,6 +38,7 @@ This means a class should perform only one specific task. If a class has multipl
 6. Makes debugging easier.
 
 **Disadvantages**
+
 1. Increases the number of classes in a project
 2. May make the project structure more complex.
 3. Requires more planning during design.
@@ -71,12 +77,15 @@ public class Main {
     }
 }
 ```
+
 **Problem**
 The `Employee` class has three responsibilities:
-+ Salary calculation
-+ Database operations
-+ Report generation
-If any of these features change, the `Employee` class must also change, violating SRP.
+
+- Salary calculation
+- Database operations
+- Report generation
+  If any of these features change, the `Employee` class must also change, violating SRP.
+
 ---
 
 **With SRP**
@@ -136,22 +145,26 @@ public class Main {
 ```
 
 **Explanation**
-+ `Employee` stores employee data.
-+ `SalaryCalculator` handles salary calculation.
-+ `EmployeeRepository` manages database operations.
-+ `ReportGenerator` creates reports.
-Each class has only one responsibility, so the design follows the Single Responsibility Principle.
+
+- `Employee` stores employee data.
+- `SalaryCalculator` handles salary calculation.
+- `EmployeeRepository` manages database operations.
+- `ReportGenerator` creates reports.
+  Each class has only one responsibility, so the design follows the Single Responsibility Principle.
+
 ---
 
 ### Open/Closed Principle (OCP)
 
 **Definition**
 The OCP is the second principle of the SOLID principles of OOD. It states:
+
 > Software entities (classes, methods, modules, etc.) should be open for extension but closed for modification.
 
 This means you should be able to add new functionality by creating new classes or extending existing ones, without changing the existing, tested code.
 
 **Characteristics of OCP**
+
 1. Open for extension: New features can be added by extending existing classes.
 2. Closed for modification: Existing source code should not need to be changed.
 3. Uses abstraction: Achieved through interfaces or abstract classes.
@@ -159,16 +172,18 @@ This means you should be able to add new functionality by creating new classes o
 5. Reduces risk: Existing code remains stable and less likely to introduce bugs.
 
 **Advantages**
-+ Improves maintainability.
-+ Makes code easier to extend.
-+ Reduces the risk of breaking existing functionality.
-+ Encourages reusable and flexible designs.
-+ Supports scalability as new requirements arise.
+
+- Improves maintainability.
+- Makes code easier to extend.
+- Reduces the risk of breaking existing functionality.
+- Encourages reusable and flexible designs.
+- Supports scalability as new requirements arise.
 
 **Disadvantages**
-+ May increase the number of classes and interfaces.
-+ Initial design can be more complex.
-+ Can lead to over-engineering if applied unnecessarily.
+
+- May increase the number of classes and interfaces.
+- Initial design can be more complex.
+- Can lead to over-engineering if applied unnecessarily.
 
 ##### Code Example
 
@@ -194,16 +209,18 @@ class AreaCalculator {
 ```
 
 **Why is this bad?**
-+ Every time a new shape is added, you must modify the `calculate()` method.
-+ The class keeps growing with more `if-else` conditions.
-+ Existing code changes whenever new functionality is added.
-+ This violates the open/closed principle, because the class is not closed for modification.
+
+- Every time a new shape is added, you must modify the `calculate()` method.
+- The class keeps growing with more `if-else` conditions.
+- Existing code changes whenever new functionality is added.
+- This violates the open/closed principle, because the class is not closed for modification.
 
 ---
 
 **With OCP**
 
 Create an interface
+
 ```java
 interface Shape {
     double area();
@@ -211,6 +228,7 @@ interface Shape {
 ```
 
 Implement the interface
+
 ```java
 class Circle implements Shape {
 
@@ -244,6 +262,7 @@ class Square implements Shape {
 ```
 
 Area Calculator
+
 ```java
 class AreaCalculator {
 
@@ -254,6 +273,7 @@ class AreaCalculator {
 ```
 
 Main Class
+
 ```java
 public class Main {
 
@@ -277,17 +297,18 @@ Notice that `AreaCalculator` does not change at all. Only a new class is added
 
 ---
 
-
 ### Liskov Substitution Principle (LSP)
 
 **Definition**
+
 > Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness or expected behavior of the program.
 
 In simple words:
+
 > A child class should behave like its parent class. Replacing the parent with the child should not produce unexpected results.
 
+**Without LSP (Violates LSP)**
 
- **Without LSP (Violates LSP)**
 ```java
 class Green {
 
@@ -320,22 +341,26 @@ public class Main {
 **Problem**
 
 Suppose the object type is **Green**.
+
 ```java
 Green green = new Blue();
 green.getColor();
 ```
 
 Expected Output:
+
 ```
 Green
 ```
 
 Actual Output:
+
 ```
 Blue
 ```
 
 **Why does this violate LSP?**
+
 - A `Green` object is expected to behave like **Green**.
 - But replacing it with a `Blue` object changes the expected behavior.
 - The child class (`Blue`) does **not** preserve the contract of the parent (`Green`).
@@ -348,6 +373,7 @@ Blue
 Instead of inheritance, use an interface because Green is not a specialized form of Blue, and Blue is not a specialized form of Green.
 
 Step 1: Interface
+
 ```java
 interface IColor {
     void getColor();
@@ -355,6 +381,7 @@ interface IColor {
 ```
 
 Step 2: Green Class
+
 ```java
 class Green implements IColor {
 
@@ -365,7 +392,8 @@ class Green implements IColor {
 }
 ```
 
- Step 3: Blue Class
+Step 3: Blue Class
+
 ```java
 class Blue implements IColor {
 
@@ -377,6 +405,7 @@ class Blue implements IColor {
 ```
 
 Step 4: Main Class
+
 ```java
 public class Main {
 
@@ -394,26 +423,28 @@ public class Main {
 ```
 
 Output
+
 ```
 Green
 Blue
 ```
 
 **Why this follows LSP**
+
 - `IColor` defines a common contract: `getColor()`.
 - `Green` and `Blue` both implement the same contract.
 - They are alternative implementations, not parent-child replacements.
 - No class changes another class's expected behavior.
 - The program behaves correctly regardless of which implementation is used.
-    
+
 **Characteristics of LSP**
+
 - A subclass should be completely replaceable for its superclass.
 - The child class should not change the expected behavior of the parent.
 - Supports proper inheritance and polymorphism.
 - Prevents unexpected runtime behavior.
 - Promotes reliable and maintainable code.
-    
- **Advantages**
+    **Advantages**
 - Improves code reliability.
 - Encourages correct inheritance.
 - Supports polymorphism.
@@ -421,7 +452,7 @@ Blue
 - Reduces runtime errors.
 
 **Disadvantages**
+
 - Requires careful class hierarchy design.
 - Incorrect inheritance can easily violate LSP.
 - Sometimes composition or interfaces are better than inheritance.
-    
