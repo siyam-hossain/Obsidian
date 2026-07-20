@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d546586249631c61",
+        "id": "49c15daa363f14dd",
         "type": "tabs",
         "children": [
           {
-            "id": "f8816067d51f2eb4",
+            "id": "dd0415a29c7ecbba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -96,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "right": {
     "id": "582165d4318a831f",
@@ -239,14 +238,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f8816067d51f2eb4",
+  "active": "dd0415a29c7ecbba",
   "lastOpenFiles": [
-    "Dashboard.md",
+    "SpringBoot Project/English/~$1-Informative Speech.md",
+    "SpringBoot Project/Advance Java/001-SOLID Principle.md",
     "SpringBoot Project/English/001-Informative Speech.md",
+    "SpringBoot Project/001-Responsive Information.md",
+    "Dashboard.md",
     "Excalidraw/Drawing 2026-07-11 19.44.47.excalidraw.md",
     "SpringBoot Project/English",
-    "SpringBoot Project/001-Responsive Information.md",
-    "SpringBoot Project/Advance Java/001-SOLID Principle.md",
     "SpringBoot Project/Advance Java",
     "SpringBoot Project",
     "Java/Spring Boot/Part 3 - Thymeleaf",
@@ -278,7 +278,6 @@
     "Java/Spring Boot/Part 1/002-Dependency-Injection/Untitled.base",
     "Java/Spring Boot/Part 1/001-Getting-Started-With-Spring-Boot/005-Configure Application Properties.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/002-Constructor Injection.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/001-What is dependency Injection.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection",
     "Java/Spring Boot/Part 0-Table-of-content",
     "Java/Spring Boot/Part 1/001-Getting-Started-With-Spring-Boot"

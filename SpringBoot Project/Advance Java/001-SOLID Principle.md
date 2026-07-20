@@ -444,7 +444,7 @@ Blue
 - Supports proper inheritance and polymorphism.
 - Prevents unexpected runtime behavior.
 - Promotes reliable and maintainable code.
-    **Advantages**
+  **Advantages**
 - Improves code reliability.
 - Encourages correct inheritance.
 - Supports polymorphism.
