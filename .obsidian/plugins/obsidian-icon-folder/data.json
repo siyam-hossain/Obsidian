@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiJavascript",
       "FasDiagramProject",
       "TiFolder",
       "LiFileText",
-      "SiCanvas",
-      "SiResearchgate"
+      "SiCanvas"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -70,5 +70,6 @@
   "Java/Spring Boot/Part 3 - Thymeleaf": "TiFolder",
   "SpringBoot Project": "FasDiagramProject",
   "SpringBoot Project/Advance Java": "TiFolder",
-  "SpringBoot Project/English": "TiFolder"
+  "SpringBoot Project/English": "TiFolder",
+  "JavaScript": "SiJavascript"
 }

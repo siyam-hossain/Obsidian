@@ -59,6 +59,15 @@
       "isBold": false,
       "applyToSubfolders": true,
       "applyToFiles": true
+    },
+    "JavaScript": {
+      "backgroundColor": "#f7df1e",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
     }
   },
   "presets": {
@@ -115,6 +124,15 @@
       "opacity": 1,
       "applyToSubfolders": false,
       "applyToFiles": false
+    },
+    "javascript": {
+      "backgroundColor": "#f7df1e",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
     }
   },
   "presetOrder": [
@@ -123,6 +141,7 @@
     "AI ML",
     "java",
     "RAG",
-    "spring boot"
+    "spring boot",
+    "javascript"
   ]
 }
