@@ -61,7 +61,6 @@
   "Java/Spring Boot/Part 1/002-Dependency-Injection/010-Lazy Initialization.md": "LiFileText",
   "Java/Spring Boot/Part 1/002-Dependency-Injection/011-Bean Scopes.md": "LiFileText",
   "Java/Spring Boot/Part 1/002-Dependency-Injection/012-Bean Lifecycle Hooks.md": "LiFileText",
-  "Java/Spring Boot/Part 1/002-Dependency-Injection/014-Exercise Implementing a User Registration Service.md": "LiFileText",
   "Dashboard.md": "TiLayoutDashboard",
   "Research": "SiResearchgate",
   "Research/001-Pipe Line.canvas": "SiCanvas",
@@ -71,5 +70,8 @@
   "SpringBoot Project": "FasDiagramProject",
   "SpringBoot Project/Advance Java": "TiFolder",
   "SpringBoot Project/English": "TiFolder",
-  "JavaScript": "SiJavascript"
+  "JavaScript": "SiJavascript",
+  "Java/Spring Boot/Part 1/003-Database-Integration": "TiFolder",
+  "Java/Spring Boot/Part 1/002-Dependency-Injection/013-Exercise Implementing a User Registration Service.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md": "LiFileText"
 }
