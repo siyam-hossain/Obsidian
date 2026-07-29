@@ -73,5 +73,12 @@
   "JavaScript": "SiJavascript",
   "Java/Spring Boot/Part 1/003-Database-Integration": "TiFolder",
   "Java/Spring Boot/Part 1/002-Dependency-Injection/013-Exercise Implementing a User Registration Service.md": "LiFileText",
-  "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md": "LiFileText"
+  "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/003-Database Migration with Flyway.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/005-Running Migrations using Maven.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/006-Excercise.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/007-Domain Model.md": "LiFileText",
+  "Java/Spring Boot/Part 1/003-Database-Integration/008-Defining Entities.md": "LiFileText"
 }

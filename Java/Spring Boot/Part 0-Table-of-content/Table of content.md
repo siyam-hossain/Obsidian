@@ -18,6 +18,16 @@
 | 1        | Dependency injection             | 002        | [[013-Exercise Implementing a User Registration Service]] |
 |          |                                  |            |                                                           |
 | 1        | Database integration             | 003        | [[001-Setting Up Spring Data JPA]]                        |
+| 1        | Database integration             | 003        | [[002-Creating Database Table]]                           |
+| 1        | Database integration             | 003        | [[003-Database Migration with Flyway]]                    |
+| 1        | Database integration             | 003        | [[004-Changing The Database Schema]]                      |
+| 1        | Database integration             | 003        | [[005-Running Migrations using Maven]]                    |
+|          |                                  |            |                                                           |
+|          |                                  |            |                                                           |
+|          |                                  |            |                                                           |
+|          |                                  |            |                                                           |
+|          |                                  |            |                                                           |
+|          |                                  |            |                                                           |
 |          |                                  |            |                                                           |
 |          |                                  |            |                                                           |
 |          |                                  |            |                                                           |

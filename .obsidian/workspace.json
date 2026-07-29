@@ -4,21 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c2f501c0da3d48bc",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "92d00703daab66be",
+            "id": "5a0ec58585820ab9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Java/Spring Boot/Part 1/003-Database-Integration/008-Defining Entities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "008-Defining Entities"
+            }
+          },
+          {
+            "id": "68f09ce9fdbf1541",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "004-Changing The Database Schema"
             }
           }
         ]
@@ -96,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "582165d4318a831f",
@@ -238,12 +251,23 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "92d00703daab66be",
+  "active": "5a0ec58585820ab9",
   "lastOpenFiles": [
-    "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/007-Domain Model.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/008-Defining Entities.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/006-Excercise.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/005-Running Migrations using Maven.md",
     "Java/Spring Boot/Part 0-Table-of-content/Table of content.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/013-Exercise Implementing a User Registration Service.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/003-Database Migration with Flyway.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
+    "Untitled.base",
     "Dashboard.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
+    "Pasted image 20260728221146.png",
+    "[Spring.md",
+    "Spring.md",
+    "Java/Spring Boot/Part 1/002-Dependency-Injection/013-Exercise Implementing a User Registration Service.md",
     "Java/Spring Boot/Part 1/003-Database-Integration",
     "Java/Spring Boot/Untitled",
     "JavaScript",
@@ -267,19 +291,9 @@
     "Java/Spring Boot/Part 1/002-Dependency-Injection/009-Configure Beans Using Code.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/006-Configure Bins Using Annotations.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/005-The Spring IoC Container.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/007-Exercise Implementing a notification service.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/007-UML diagram.png",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/Drawing 2026-07-09 20.10.51.excalidraw.md",
     "Untitled Diagram.drawio.png",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/test.excalidraw.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/Untitled.canvas",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/Untitled Kanban.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/004-Method Injection.md",
-    "dashboard.md",
-    "Pasted image 20260709101941.png",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/003-Setter Injection.md",
-    "Excalidraw/Drawing 2026-07-09 01.31.10.excalidraw.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/Untitled.base",
-    "Java/Spring Boot/Part 1/001-Getting-Started-With-Spring-Boot/005-Configure Application Properties.md"
+    "Pasted image 20260709101941.png"
   ]
 }
