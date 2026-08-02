@@ -22,11 +22,11 @@
 | 1        | Database integration             | 003        | [[003-Database Migration with Flyway]]                    |
 | 1        | Database integration             | 003        | [[004-Changing The Database Schema]]                      |
 | 1        | Database integration             | 003        | [[005-Running Migrations using Maven]]                    |
-|          |                                  |            |                                                           |
-|          |                                  |            |                                                           |
-|          |                                  |            |                                                           |
-|          |                                  |            |                                                           |
-|          |                                  |            |                                                           |
+| 1        | Database integration             | 003        | [[006-Exercise]]                                          |
+| 1        | Database integration             | 003        | [[007-Domain Model]]                                      |
+| 1        | Database integration             | 003        | [[008-Defining Entities]]                                 |
+| 1        | Database integration             | 003        | [[009-Simplifying Code with Lombok]]                      |
+| 1        | Database integration             | 003        | [[010-Exercise]]                                          |
 |          |                                  |            |                                                           |
 |          |                                  |            |                                                           |
 |          |                                  |            |                                                           |

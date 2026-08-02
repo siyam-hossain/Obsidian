@@ -4,35 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "aeb77eea53043c98",
         "type": "tabs",
         "children": [
           {
-            "id": "5a0ec58585820ab9",
+            "id": "fd4cbea40ce72b21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring Boot/Part 1/003-Database-Integration/008-Defining Entities.md",
+                "file": "AI ML/020-Getting Started With Statistics/013-Covariance and Correlation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "008-Defining Entities"
+              "title": "013-Covariance and Correlation"
             }
           },
           {
-            "id": "68f09ce9fdbf1541",
+            "id": "858d11c4bdf9e3bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
+                "file": "AI ML/020-Getting Started With Statistics/011-Percentiles and Quartiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "004-Changing The Database Schema"
+              "title": "011-Percentiles and Quartiles"
             }
           }
         ]
@@ -56,7 +56,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -110,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 348.5
   },
   "right": {
     "id": "582165d4318a831f",
@@ -230,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,46 +254,46 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "5a0ec58585820ab9",
+  "active": "e0ce523928f2b376",
   "lastOpenFiles": [
-    "Java/Spring Boot/Part 1/003-Database-Integration/007-Domain Model.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/008-Defining Entities.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/006-Excercise.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/005-Running Migrations using Maven.md",
+    "AI ML/021-Introduction To Probability",
+    "AI ML/020-Getting Started With Statistics/012-Number Summary.md",
+    "AI ML/020-Getting Started With Statistics/013-Covariance and Correlation.md",
+    "AI ML/020-Getting Started With Statistics/011-Percentiles and Quartiles.md",
+    "Untitled.md",
+    "AI ML/020-Getting Started With Statistics/010-Histograms.md",
+    "AI ML/020-Getting Started With Statistics/009-Random variables.md",
+    "AI ML/020-Getting Started With Statistics/009-Variables.md",
     "Java/Spring Boot/Part 0-Table-of-content/Table of content.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/003-Database Migration with Flyway.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
     "Untitled.base",
     "Dashboard.md",
+    "AI ML/020-Getting Started With Statistics/008-What are Variables.md",
+    "AI ML/020-Getting Started With Statistics/007-Standard Deviation.md",
+    "AI ML/020-Getting Started With Statistics/006-Sample Variance.md",
+    "AI ML/020-Getting Started With Statistics/005-Measure of Dispersion.md",
+    "AI ML/020-Getting Started With Statistics/004-Measure of Central Tendency.md",
+    "AI ML/020-Getting Started With Statistics/003-Population Vs Sample Data.md",
+    "AI ML/020-Getting Started With Statistics/002-Types of Statistics.md",
+    "AI ML/020-Getting Started With Statistics/001-What is Statistics And its Application.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
+    "AI ML/020-Getting Started With Statistics",
     "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/003-Database Migration with Flyway.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/005-Running Migrations using Maven.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/011-Defining One to Many Relationships.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/009-Simplifying Code with Lombok.md",
+    "Java/Spring Boot/Part 1/003-Database-Integration/012-Defining Many to Many Relationships.md",
     "Pasted image 20260728221146.png",
-    "[Spring.md",
-    "Spring.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/013-Exercise Implementing a User Registration Service.md",
     "Java/Spring Boot/Part 1/003-Database-Integration",
     "Java/Spring Boot/Untitled",
     "JavaScript",
-    "SpringBoot Project/Advance Java/001-SOLID Principle.md",
-    "SpringBoot Project/English/001-Informative Speech.md",
-    "SpringBoot Project/English/~$1-Informative Speech.md",
-    "SpringBoot Project/001-Responsive Information.md",
-    "Excalidraw/Drawing 2026-07-11 19.44.47.excalidraw.md",
     "SpringBoot Project/English",
     "SpringBoot Project/Advance Java",
     "SpringBoot Project",
     "Java/Spring Boot/Part 3 - Thymeleaf",
-    "Research/002-Paper Findings.md",
     "Research/001-Pipe Line.canvas",
     "Excalidraw",
-    "Research",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/012-Bean Lifecycle Hooks.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/011-Bean Scopes.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/010-Lazy Initialization.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/008-Externalizing Configuration.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/009-Configure Beans Using Code.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/006-Configure Bins Using Annotations.md",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/005-The Spring IoC Container.md",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/007-UML diagram.png",
     "Untitled Diagram.drawio.png",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/Untitled.canvas",
