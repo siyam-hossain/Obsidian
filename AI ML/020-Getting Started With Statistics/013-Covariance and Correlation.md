@@ -7,6 +7,7 @@
 **Covariance** measures the **direction** of the relationship between two variables.
 
 It tells us whether two variables tend to increase or decrease together.
+
 - Positive covariance → Variables move in the same direction.
 - Negative covariance → Variables move in opposite directions.
 - Zero covariance → No linear relationship.
@@ -33,22 +34,22 @@ $$
 
 ## Symbols
 
-| Symbol | Meaning |
-|--------|---------|
-| $x_i,\;y_i$ | Observations of X and Y |
-| $\mu_x,\;\mu_y$ | Population means |
-| $\bar{x},\;\bar{y}$ | Sample means |
-| $N$ | Population size |
-| $n$ | Sample size |
+| Symbol              | Meaning                 |
+| ------------------- | ----------------------- |
+| $x_i,\;y_i$         | Observations of X and Y |
+| $\mu_x,\;\mu_y$     | Population means        |
+| $\bar{x},\;\bar{y}$ | Sample means            |
+| $N$                 | Population size         |
+| $n$                 | Sample size             |
 
 ---
 
 ## Interpretation
 
-| Covariance | Meaning |
-|------------|---------|
-| Cov(X,Y) > 0 | Positive relationship |
-| Cov(X,Y) < 0 | Negative relationship |
+| Covariance   | Meaning                |
+| ------------ | ---------------------- |
+| Cov(X,Y) > 0 | Positive relationship  |
+| Cov(X,Y) < 0 | Negative relationship  |
 | Cov(X,Y) = 0 | No linear relationship |
 
 ---
@@ -56,11 +57,11 @@ $$
 ## Example
 
 | Hours Studied ($X$) | Exam Score ($Y$) |
-|:-------------------:|:----------------:|
-| 2 | 60 |
-| 4 | 70 |
-| 6 | 80 |
-| 8 | 90 |
+| :-----------------: | :--------------: |
+|          2          |        60        |
+|          4          |        70        |
+|          6          |        80        |
+|          8          |        90        |
 
 As study hours increase, exam scores also increase.
 
@@ -81,6 +82,7 @@ $$
 Unlike covariance, correlation is **unit-free** and always lies between **−1** and **+1**.
 
 ---
+
 # Pearson Correlation Coefficient and Spearman Rank Correlation
 
 ## Pearson Correlation Coefficient
@@ -111,14 +113,15 @@ r=
 $$
 
 ---
+
 where
 
-| Symbol | Meaning |
-|--------|---------|
-| $r$ | Pearson correlation coefficient |
-| $\operatorname{Cov}(X,Y)$ | Covariance |
-| $s_x$ | Standard deviation of X |
-| $s_y$ | Standard deviation of Y |
+| Symbol                    | Meaning                         |
+| ------------------------- | ------------------------------- |
+| $r$                       | Pearson correlation coefficient |
+| $\operatorname{Cov}(X,Y)$ | Covariance                      |
+| $s_x$                     | Standard deviation of X         |
+| $s_y$                     | Standard deviation of Y         |
 
 ---
 
@@ -147,11 +150,11 @@ $$
 ## Example
 
 | Hours Studied | Exam Score |
-|:-------------:|:----------:|
-| 2 | 60 |
-| 4 | 70 |
-| 6 | 80 |
-| 8 | 90 |
+| :-----------: | :--------: |
+|       2       |     60     |
+|       4       |     70     |
+|       6       |     80     |
+|       8       |     90     |
 
 As study hours increase, exam scores also increase.
 
@@ -185,22 +188,22 @@ $$
 
 where
 
-| Symbol | Meaning |
-|--------|---------|
-| $d_i$ | Difference between the ranks |
-| $n$ | Number of observations |
+| Symbol | Meaning                      |
+| ------ | ---------------------------- |
+| $d_i$  | Difference between the ranks |
+| $n$    | Number of observations       |
 
 ---
 
 ## Example
 
-| Student | Math Rank | Physics Rank | $d$ | $d^2$ |
-|:------:|:---------:|:------------:|:---:|:-----:|
-| A | 1 | 2 | -1 | 1 |
-| B | 2 | 1 | 1 | 1 |
-| C | 3 | 3 | 0 | 0 |
-| D | 4 | 4 | 0 | 0 |
-| **Total** | | | | **2** |
+|  Student  | Math Rank | Physics Rank | $d$ | $d^2$ |
+| :-------: | :-------: | :----------: | :-: | :---: |
+|     A     |     1     |      2       | -1  |   1   |
+|     B     |     2     |      1       |  1  |   1   |
+|     C     |     3     |      3       |  0  |   0   |
+|     D     |     4     |      4       |  0  |   0   |
+| **Total** |           |              |     | **2** |
 
 ### Step 1: Apply the Formula
 
@@ -228,13 +231,13 @@ This indicates a **strong positive monotonic relationship** between the two rank
 
 # Pearson vs Spearman
 
-| Pearson Correlation | Spearman Rank Correlation |
-|----------------------|---------------------------|
-| Uses actual values | Uses ranks |
-| Measures linear relationship | Measures monotonic relationship |
-| Sensitive to outliers | Less sensitive to outliers |
-| Requires numerical data | Works with ranked or ordinal data |
-| Formula uses covariance | Formula uses rank differences |
+| Pearson Correlation          | Spearman Rank Correlation         |
+| ---------------------------- | --------------------------------- |
+| Uses actual values           | Uses ranks                        |
+| Measures linear relationship | Measures monotonic relationship   |
+| Sensitive to outliers        | Less sensitive to outliers        |
+| Requires numerical data      | Works with ranked or ordinal data |
+| Formula uses covariance      | Formula uses rank differences     |
 
 ---
 
@@ -257,9 +260,9 @@ This indicates a **strong positive monotonic relationship** between the two rank
 - **Pearson Correlation** measures the strength and direction of a **linear** relationship.
 - **Spearman Rank Correlation** measures the strength and direction of a **monotonic** relationship using **ranks**.
 - Both coefficients range from **−1 to +1**:
-  - **+1** → Perfect positive relationship.
-  - **0** → No relationship.
-  - **−1** → Perfect negative relationship.
+    - **+1** → Perfect positive relationship.
+    - **0** → No relationship.
+    - **−1** → Perfect negative relationship.
 
 ---
 
@@ -318,29 +321,31 @@ No clear linear relationship.
 
 # Covariance vs Correlation
 
-| Covariance | Correlation |
-|------------|-------------|
+| Covariance              | Correlation                          |
+| ----------------------- | ------------------------------------ |
 | Measures direction only | Measures both direction and strength |
-| Depends on units | Unit-free |
-| Range is unbounded | Always between −1 and +1 |
-| Difficult to compare | Easy to compare |
+| Depends on units        | Unit-free                            |
+| Range is unbounded      | Always between −1 and +1             |
+| Difficult to compare    | Easy to compare                      |
 
 ---
+
 - **Covariance** indicates whether two variables move together or in opposite directions.
 - **Correlation** indicates both the direction and the strength of the linear relationship.
 - Correlation is a standardized version of covariance, making it easier to interpret and compare.
 
 ---
+
 # Mathematical Example
 
 Given the data:
 
 | $X$ | $Y$ |
-|:---:|:---:|
-| 2 | 4 |
-| 4 | 6 |
-| 6 | 8 |
-| 8 | 10 |
+| :-: | :-: |
+|  2  |  4  |
+|  4  |  6  |
+|  6  |  8  |
+|  8  | 10  |
 
 ---
 
@@ -368,13 +373,13 @@ $$
 
 ## Step 2: Compute the Deviations
 
-| $x_i$ | $y_i$ | $x_i-\bar{x}$ | $y_i-\bar{y}$ | $(x_i-\bar{x})(y_i-\bar{y})$ |
-|:-----:|:-----:|:-------------:|:-------------:|:----------------------------:|
-| 2 | 4 | -3 | -3 | 9 |
-| 4 | 6 | -1 | -1 | 1 |
-| 6 | 8 | 1 | 1 | 1 |
-| 8 | 10 | 3 | 3 | 9 |
-| **Total** | | | | **20** |
+|   $x_i$   | $y_i$ | $x_i-\bar{x}$ | $y_i-\bar{y}$ | $(x_i-\bar{x})(y_i-\bar{y})$ |
+| :-------: | :---: | :-----------: | :-----------: | :--------------------------: |
+|     2     |   4   |      -3       |      -3       |              9               |
+|     4     |   6   |      -1       |      -1       |              1               |
+|     6     |   8   |       1       |       1       |              1               |
+|     8     |  10   |       3       |       3       |              9               |
+| **Total** |       |               |               |            **20**            |
 
 ---
 
@@ -434,10 +439,10 @@ $$
 
 ## Final Results
 
-| Measure | Value |
-|---------|------:|
-| Sample Covariance | 6.67 |
-| Sample Correlation | 1.00 |
+| Measure            | Value |
+| ------------------ | ----: |
+| Sample Covariance  |  6.67 |
+| Sample Correlation |  1.00 |
 
 ---
 
