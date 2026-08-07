@@ -68,6 +68,15 @@
       "opacity": 1,
       "applyToSubfolders": false,
       "applyToFiles": false
+    },
+    "Flutter": {
+      "backgroundColor": "#0084ff",
+      "textColor": "#ffffff",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
     }
   },
   "presets": {
@@ -133,6 +142,15 @@
       "opacity": 1,
       "applyToSubfolders": false,
       "applyToFiles": false
+    },
+    "Flutter": {
+      "backgroundColor": "#0084ff",
+      "textColor": "#000000",
+      "isBold": true,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
     }
   },
   "presetOrder": [
@@ -142,6 +160,7 @@
     "java",
     "RAG",
     "spring boot",
-    "javascript"
+    "javascript",
+    "Flutter"
   ]
 }

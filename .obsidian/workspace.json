@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "344a2f87aba27242",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "c7a956090c6b5832",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -218,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5,
-    "collapsed": true
+    "width": 232.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,8 +239,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c7a956090c6b5832",
+  "active": "e0ce523928f2b376",
   "lastOpenFiles": [
+    "Flutter",
+    "Dashboard.md",
     "AI ML/020-Getting Started With Statistics/013-Covariance and Correlation.md",
     "AI ML/021-Introduction To Probability",
     "AI ML/020-Getting Started With Statistics/012-Number Summary.md",
@@ -252,7 +253,6 @@
     "AI ML/020-Getting Started With Statistics/009-Variables.md",
     "Java/Spring Boot/Part 0-Table-of-content/Table of content.md",
     "Untitled.base",
-    "Dashboard.md",
     "AI ML/020-Getting Started With Statistics/008-What are Variables.md",
     "AI ML/020-Getting Started With Statistics/007-Standard Deviation.md",
     "AI ML/020-Getting Started With Statistics/006-Sample Variance.md",
