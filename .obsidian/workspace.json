@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Flutter/001-Getting-Started/001-Hello-world.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dashboard"
+              "title": "001-Hello-world"
             }
           }
         ]
@@ -239,10 +239,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e0ce523928f2b376",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Flutter",
     "Dashboard.md",
+    "Flutter/001-Getting-Started/001-Hello-world.md",
+    "Flutter/001-Getting-Started",
+    "Flutter",
     "AI ML/020-Getting Started With Statistics/013-Covariance and Correlation.md",
     "AI ML/021-Introduction To Probability",
     "AI ML/020-Getting Started With Statistics/012-Number Summary.md",
@@ -276,8 +278,6 @@
     "JavaScript",
     "SpringBoot Project/English",
     "SpringBoot Project/Advance Java",
-    "SpringBoot Project",
-    "Java/Spring Boot/Part 3 - Thymeleaf",
     "Research/001-Pipe Line.canvas",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/007-UML diagram.png",
     "Untitled Diagram.drawio.png",

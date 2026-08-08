@@ -75,8 +75,8 @@
       "isBold": false,
       "isItalic": false,
       "opacity": 1,
-      "applyToSubfolders": false,
-      "applyToFiles": false
+      "applyToSubfolders": true,
+      "applyToFiles": true
     }
   },
   "presets": {
