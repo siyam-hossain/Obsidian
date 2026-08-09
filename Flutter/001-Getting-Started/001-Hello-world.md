@@ -4,8 +4,8 @@
 2. This method acts as the entry point to the application
 
 ```dart
-void main(){  
-  print("Hello world");  
+void main(){
+  print("Hello world");
 }
 ```
 

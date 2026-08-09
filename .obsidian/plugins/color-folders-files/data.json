@@ -77,6 +77,15 @@
       "opacity": 1,
       "applyToSubfolders": true,
       "applyToFiles": true
+    },
+    "Spring Boot": {
+      "backgroundColor": "#6db33f",
+      "textColor": "#000000",
+      "isBold": false,
+      "isItalic": false,
+      "opacity": 1,
+      "applyToSubfolders": true,
+      "applyToFiles": true
     }
   },
   "presets": {

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "72bbadb85d7c55f2",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "326cf84b17933869",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/001-Getting-Started/001-Hello-world.md",
+                "file": "Flutter/001-Getting-Started/005-Dart data types and numbers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "001-Hello-world"
+              "title": "005-Dart data types and numbers"
             }
           }
         ]
@@ -239,9 +239,18 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "326cf84b17933869",
   "lastOpenFiles": [
+    "Flutter/001-Getting-Started/004-Dart variable.md",
+    "Flutter/001-Getting-Started/002-Dart project structure.md",
+    "Flutter/001-Getting-Started/005-Dart data types and numbers.md",
     "Dashboard.md",
+    "Flutter/001-Getting-Started/003-Dart Syntax.md",
+    "Flutter/000-Table of content/Table of content.md",
+    "Flutter/000-Table of content",
+    "Spring Boot/Part 0-Table-of-content/Table of content.md",
+    "AI ML/00-Table of content/Table of content.md",
+    "AI ML/00-Table of content",
     "Flutter/001-Getting-Started/001-Hello-world.md",
     "Flutter/001-Getting-Started",
     "Flutter",
@@ -253,7 +262,6 @@
     "AI ML/020-Getting Started With Statistics/010-Histograms.md",
     "AI ML/020-Getting Started With Statistics/009-Random variables.md",
     "AI ML/020-Getting Started With Statistics/009-Variables.md",
-    "Java/Spring Boot/Part 0-Table-of-content/Table of content.md",
     "Untitled.base",
     "AI ML/020-Getting Started With Statistics/008-What are Variables.md",
     "AI ML/020-Getting Started With Statistics/007-Standard Deviation.md",
@@ -263,23 +271,15 @@
     "AI ML/020-Getting Started With Statistics/003-Population Vs Sample Data.md",
     "AI ML/020-Getting Started With Statistics/002-Types of Statistics.md",
     "AI ML/020-Getting Started With Statistics/001-What is Statistics And its Application.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
+    "Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
     "AI ML/020-Getting Started With Statistics",
-    "Java/Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/003-Database Migration with Flyway.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/005-Running Migrations using Maven.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/011-Defining One to Many Relationships.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/009-Simplifying Code with Lombok.md",
-    "Java/Spring Boot/Part 1/003-Database-Integration/012-Defining Many to Many Relationships.md",
+    "Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
     "Pasted image 20260728221146.png",
-    "Java/Spring Boot/Part 1/003-Database-Integration",
+    "Spring Boot/Part 1/003-Database-Integration",
     "Java/Spring Boot/Untitled",
     "JavaScript",
-    "SpringBoot Project/English",
-    "SpringBoot Project/Advance Java",
     "Research/001-Pipe Line.canvas",
-    "Java/Spring Boot/Part 1/002-Dependency-Injection/007-UML diagram.png",
+    "Spring Boot/Part 1/002-Dependency-Injection/007-UML diagram.png",
     "Untitled Diagram.drawio.png",
     "Java/Spring Boot/Part 1/002-Dependency-Injection/Untitled.canvas",
     "Pasted image 20260709101941.png"
