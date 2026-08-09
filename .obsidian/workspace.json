@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72bbadb85d7c55f2",
+        "id": "95850c3a9ca4393e",
         "type": "tabs",
         "children": [
           {
-            "id": "326cf84b17933869",
+            "id": "cef72ec498637092",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/001-Getting-Started/005-Dart data types and numbers.md",
+                "file": "Flutter/000-Table of content/Table of content.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "005-Dart data types and numbers"
+              "title": "Table of content"
             }
           }
         ]
@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,20 +240,31 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "326cf84b17933869",
+  "active": "cef72ec498637092",
   "lastOpenFiles": [
-    "Flutter/001-Getting-Started/004-Dart variable.md",
-    "Flutter/001-Getting-Started/002-Dart project structure.md",
-    "Flutter/001-Getting-Started/005-Dart data types and numbers.md",
+    "Flutter/001-Basic Dart Beginning I/016-List update and remove.md",
+    "Flutter/001-Basic Dart Beginning I/015-List insert items.md",
+    "Flutter/001-Basic Dart Beginning I/014-Fixed length list growable list.md",
+    "Flutter/001-Basic Dart Beginning I/013-List properties.md",
+    "Flutter/001-Basic Dart Beginning I/012-Dart constant.md",
+    "Flutter/001-Basic Dart Beginning I/011-Example of unary operator.md",
+    "Flutter/001-Basic Dart Beginning I/010-Example of arithmetic operator.md",
+    "Flutter/001-Basic Dart Beginning I/009-Dart operators.md",
+    "Flutter/001-Basic Dart Beginning I/008-Dart map.md",
+    "Flutter/001-Basic Dart Beginning I/007-Dart List.md",
+    "Flutter/001-Basic Dart Beginning I/006-String and Boolean.md",
+    "Flutter/001-Basic Dart Beginning I/005-Dart data types and numbers.md",
     "Dashboard.md",
-    "Flutter/001-Getting-Started/003-Dart Syntax.md",
+    "Flutter/001-Basic Dart Beginning I/004-Dart variable.md",
+    "Flutter/001-Basic Dart Beginning I/002-Dart project structure.md",
+    "Flutter/001-Basic Dart Beginning I/003-Dart Syntax.md",
     "Flutter/000-Table of content/Table of content.md",
     "Flutter/000-Table of content",
     "Spring Boot/Part 0-Table-of-content/Table of content.md",
     "AI ML/00-Table of content/Table of content.md",
     "AI ML/00-Table of content",
-    "Flutter/001-Getting-Started/001-Hello-world.md",
-    "Flutter/001-Getting-Started",
+    "Flutter/001-Basic Dart Beginning I/001-Hello-world.md",
+    "Flutter/001-Basic Dart Beginning I",
     "Flutter",
     "AI ML/020-Getting Started With Statistics/013-Covariance and Correlation.md",
     "AI ML/021-Introduction To Probability",
@@ -261,19 +273,8 @@
     "Untitled.md",
     "AI ML/020-Getting Started With Statistics/010-Histograms.md",
     "AI ML/020-Getting Started With Statistics/009-Random variables.md",
-    "AI ML/020-Getting Started With Statistics/009-Variables.md",
     "Untitled.base",
-    "AI ML/020-Getting Started With Statistics/008-What are Variables.md",
-    "AI ML/020-Getting Started With Statistics/007-Standard Deviation.md",
-    "AI ML/020-Getting Started With Statistics/006-Sample Variance.md",
-    "AI ML/020-Getting Started With Statistics/005-Measure of Dispersion.md",
-    "AI ML/020-Getting Started With Statistics/004-Measure of Central Tendency.md",
-    "AI ML/020-Getting Started With Statistics/003-Population Vs Sample Data.md",
-    "AI ML/020-Getting Started With Statistics/002-Types of Statistics.md",
-    "AI ML/020-Getting Started With Statistics/001-What is Statistics And its Application.md",
-    "Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
     "AI ML/020-Getting Started With Statistics",
-    "Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
     "Pasted image 20260728221146.png",
     "Spring Boot/Part 1/003-Database-Integration",
     "Java/Spring Boot/Untitled",
