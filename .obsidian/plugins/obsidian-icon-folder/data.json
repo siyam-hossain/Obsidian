@@ -47,9 +47,6 @@
   "Research": "SiResearchgate",
   "Research/001-Pipe Line.canvas": "SiCanvas",
   "Research/002-Paper Findings.md": "LiFileText",
-  "SpringBoot Project": "FasDiagramProject",
-  "SpringBoot Project/Advance Java": "TiFolder",
-  "SpringBoot Project/English": "TiFolder",
   "JavaScript": "SiJavascript",
   "AI ML/020-Getting Started With Statistics": "TiFolder",
   "AI ML/020-Getting Started With Statistics/001-What is Statistics And its Application.md": "LiFileText",
@@ -122,5 +119,11 @@
   "Flutter/001-Basic Dart Beginning I/013-List properties.md": "LiFileText",
   "Flutter/001-Basic Dart Beginning I/014-Fixed length list growable list.md": "LiFileText",
   "Flutter/001-Basic Dart Beginning I/015-List insert items.md": "LiFileText",
-  "Flutter/001-Basic Dart Beginning I/016-List update and remove.md": "LiFileText"
+  "Flutter/001-Basic Dart Beginning I/016-List update and remove.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II": "TiFolder",
+  "Flutter/002-Basic Dart Beginning II/001-Dart Set.md": "LiFileText",
+  "Summer 2026": "FasDiagramProject",
+  "Summer 2026/English": "TiFolder",
+  "Summer 2026/Advance Java": "TiFolder",
+  "Summer 2026/CGA Lab": "TiFolder"
 }
