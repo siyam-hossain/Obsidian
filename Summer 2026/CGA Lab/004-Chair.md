@@ -20,17 +20,17 @@ void processInput(GLFWwindow *window);
 
 // draw object functions
 void drawCube(
-	Shader shaderProgram, 
-	unsigned int VAO, 
-	glm::mat4 parentTrans, 
-	float posX = 0.0, 
-	float posY = 0.0, 
-	float posz = 0.0, 
-	float rotX = 0.0, 
-	float rotY = 0.0, 
-	float rotZ = 0.0, 
-	float scX = 1.0, 
-	float scY = 1.0, 
+	Shader shaderProgram,
+	unsigned int VAO,
+	glm::mat4 parentTrans,
+	float posX = 0.0,
+	float posY = 0.0,
+	float posz = 0.0,
+	float rotX = 0.0,
+	float rotY = 0.0,
+	float rotZ = 0.0,
+	float scX = 1.0,
+	float scY = 1.0,
 	float scZ = 1.0
 );
 
@@ -57,28 +57,28 @@ float lastX = SCR_WIDTH / 2.0f;
 float lastY = SCR_HEIGHT / 2.0f;
 bool firstMouse = true;
 
-float 	eyeX = 1.5, 
-		eyeY = 1.5, 
+float 	eyeX = 1.5,
+		eyeY = 1.5,
 		eyeZ = 3.0;
-		
-float 	lookAtX = 0.0, 
-		lookAtY = 0.0, 
+
+float 	lookAtX = 0.0,
+		lookAtY = 0.0,
 		lookAtZ = 0.0;
 
 glm::vec3 V = glm::vec3(0.0f, 1.0f, 0.0f);
 
 BasicCamera basic_camera(
-	eyeX, 
-	eyeY, 
-	eyeZ, 
-	lookAtX, 
-	lookAtY, 
-	lookAtZ, 
+	eyeX,
+	eyeY,
+	eyeZ,
+	lookAtX,
+	lookAtY,
+	lookAtZ,
 	V
 );
 
 // timing
-float deltaTime = 0.0f; 
+float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 
 int main()
@@ -174,21 +174,21 @@ int main()
 
     // position attribute
     glVertexAttribPointer(
-		0, 
-		3, 
-		GL_FLOAT, GL_FALSE, 
-		6 * sizeof(float), 
+		0,
+		3,
+		GL_FLOAT, GL_FALSE,
+		6 * sizeof(float),
 		(void *)0
 	);
     glEnableVertexAttribArray(0);
 
     // color attribute
     glVertexAttribPointer(
-		1, 
-		3, 
-		GL_FLOAT, 
-		GL_FALSE, 
-		6 * sizeof(float), 
+		1,
+		3,
+		GL_FLOAT,
+		GL_FALSE,
+		6 * sizeof(float),
 		(void *)12
 	);
     glEnableVertexAttribArray(1);
@@ -219,9 +219,9 @@ int main()
 
         // pass projection matrix to shader (note that in this case it could change every frame)
         glm::mat4 projection = glm::perspective(
-			glm::radians(basic_camera.Zoom), 
-			(float)SCR_WIDTH / (float)SCR_HEIGHT, 
-			0.1f, 
+			glm::radians(basic_camera.Zoom),
+			(float)SCR_WIDTH / (float)SCR_HEIGHT,
+			0.1f,
 			100.0f
 		);
         // glm::mat4 projection = glm::ortho(-2.0f, +2.0f, -1.5f, +1.5f, 0.1f, 100.0f);
@@ -234,7 +234,7 @@ int main()
         constantShader.setMat4("view", view);
 
         // Modelling Transformation
-        glm::mat4 identityMatrix = glm::mat4(1.0f); 
+        glm::mat4 identityMatrix = glm::mat4(1.0f);
 
         // paya
         drawCube(ourShader, VAO, identityMatrix, -0.4, 0.0, 0.4, 0.0, 0.0, 0.0, 0.1, 0.8, 0.1);
@@ -362,17 +362,17 @@ void scroll_callback(GLFWwindow *window, double xoffset, double yoffset)
 
 
 void drawCube(
-	Shader shaderProgram, 
-	unsigned int VAO, 
-	glm::mat4 parentTrans, 
-	float posX, 
-	float posY, 
-	float posZ, 
-	float rotX, 
-	float rotY, 
-	float rotZ, 
-	float scX, 
-	float scY, 
+	Shader shaderProgram,
+	unsigned int VAO,
+	glm::mat4 parentTrans,
+	float posX,
+	float posY,
+	float posZ,
+	float rotX,
+	float rotY,
+	float rotZ,
+	float scX,
+	float scY,
 	float scZ
 )
 {
@@ -380,30 +380,30 @@ void drawCube(
 
     glm::mat4 translateMatrix, rotateXMatrix, rotateYMatrix, rotateZMatrix, scaleMatrix, model, modelCentered;
     translateMatrix = glm::translate(
-		parentTrans, 
+		parentTrans,
 		glm::vec3(posX, posY, posZ)
 	);
     rotateXMatrix = glm::rotate(
-		translateMatrix, 
-		glm::radians(rotX), 
+		translateMatrix,
+		glm::radians(rotX),
 		glm::vec3(1.0f, 0.0f, 0.0f)
 	);
     rotateYMatrix = glm::rotate(
-		rotateXMatrix, 
-		glm::radians(rotY), 
+		rotateXMatrix,
+		glm::radians(rotY),
 		glm::vec3(0.0f, 1.0f, 0.0f)
 	);
     rotateZMatrix = glm::rotate(
-		rotateYMatrix, 
-		glm::radians(rotZ), 
+		rotateYMatrix,
+		glm::radians(rotZ),
 		glm::vec3(0.0f, 0.0f, 1.0f)
 	);
     model = glm::scale(
-		rotateZMatrix, 
+		rotateZMatrix,
 		glm::vec3(scX, scY, scZ)
 	);
     modelCentered = glm::translate(
-		model, 
+		model,
 		glm::vec3(-0.5, -0.5, -0.5)
 	);
 

@@ -27,3 +27,34 @@ void main(){
 ```
 
 ---
+
+# Dart data types
+
+```text
+Dart Types
+│
+├── Numbers
+│   ├── int
+│   ├── double
+│   └── num
+│
+├── Text
+│   └── String
+│
+├── Boolean
+│   └── bool
+│
+├── Collections
+│   ├── List
+│   ├── Set
+│   └── Map
+│
+├── Functions
+│   └── Function
+│
+└── Other
+    ├── Record
+    ├── Object
+    ├── dynamic
+    └── Null
+```

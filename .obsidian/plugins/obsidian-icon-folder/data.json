@@ -125,5 +125,19 @@
   "Summer 2026": "FasDiagramProject",
   "Summer 2026/English": "TiFolder",
   "Summer 2026/Advance Java": "TiFolder",
-  "Summer 2026/CGA Lab": "TiFolder"
+  "Summer 2026/CGA Lab": "TiFolder",
+  "Flutter/002-Basic Dart Beginning II/002-Element at and clear.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/003-Set properties.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/004-Map add new element.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/005-Map constructor and properties.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/006-Map add remove clear.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/007-Dart control flow.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/008-If else statements.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/009-Switch case statement.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/010-For loop.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/011-For in loop over list.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/012-For in loop over set and json list.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/013-While and do while loop.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/014-Function define and call.md": "LiFileText",
+  "Flutter/002-Basic Dart Beginning II/015-Passing argument inside function.md": "LiFileText"
 }

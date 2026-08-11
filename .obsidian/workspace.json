@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "90f09b1f94af4339",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "4490813b19cb2bf2",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Summer 2026/CGA Lab/004-Chair.md",
+                "file": "Flutter/002-Basic Dart Beginning II/016-Function return and main function.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "004-Chair"
+              "title": "016-Function return and main function"
             }
           }
         ]
@@ -218,7 +218,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 232.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,41 +240,41 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4490813b19cb2bf2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Summer 2026/CGA Lab/003-Cube.md",
-    "Summer 2026/CGA Lab/004-Chair.md",
-    "Summer 2026/CGA Lab",
-    "Dashboard.md",
-    "Flutter/002-Basic Dart Beginning II/001-Dart Set.md",
-    "Flutter/000-Table of content/Table of content.md",
-    "Flutter/002-Basic Dart Beginning II",
-    "Flutter/001-Basic Dart Beginning I/016-List update and remove.md",
-    "Flutter/001-Basic Dart Beginning I/015-List insert items.md",
-    "Flutter/001-Basic Dart Beginning I/014-Fixed length list growable list.md",
-    "Flutter/001-Basic Dart Beginning I/013-List properties.md",
-    "Flutter/001-Basic Dart Beginning I/012-Dart constant.md",
-    "Flutter/001-Basic Dart Beginning I/011-Example of unary operator.md",
-    "Flutter/001-Basic Dart Beginning I/010-Example of arithmetic operator.md",
-    "Flutter/001-Basic Dart Beginning I/009-Dart operators.md",
-    "Flutter/001-Basic Dart Beginning I/008-Dart map.md",
-    "Flutter/001-Basic Dart Beginning I/007-Dart List.md",
-    "Flutter/001-Basic Dart Beginning I/006-String and Boolean.md",
+    "Flutter/002-Basic Dart Beginning II/015-Passing argument inside function.md",
+    "Flutter/002-Basic Dart Beginning II/016-Function return and main function.md",
+    "Flutter/002-Basic Dart Beginning II/014-Function define and call.md",
     "Flutter/001-Basic Dart Beginning I/005-Dart data types and numbers.md",
     "Flutter/001-Basic Dart Beginning I/004-Dart variable.md",
-    "Flutter/001-Basic Dart Beginning I/002-Dart project structure.md",
-    "Flutter/001-Basic Dart Beginning I/003-Dart Syntax.md",
-    "Flutter/000-Table of content",
-    "Spring Boot/Part 0-Table-of-content/Table of content.md",
+    "Flutter/002-Basic Dart Beginning II/013-While and do while loop.md",
+    "Flutter/002-Basic Dart Beginning II/012-For in loop over set and json list.md",
+    "Flutter/002-Basic Dart Beginning II/011-For in loop over list.md",
+    "Flutter/002-Basic Dart Beginning II/010-For loop.md",
+    "Flutter/002-Basic Dart Beginning II/009-Switch case statement.md",
+    "Flutter/002-Basic Dart Beginning II/008-If else statements.md",
+    "Flutter/002-Basic Dart Beginning II/007-Dart control flow.md",
+    "Flutter/002-Basic Dart Beginning II/006-Map add remove clear.md",
+    "Flutter/002-Basic Dart Beginning II/005-Map constructor and properties.md",
+    "Flutter/002-Basic Dart Beginning II/004-Map add new element.md",
+    "Flutter/002-Basic Dart Beginning II/003-Set properties.md",
+    "Flutter/002-Basic Dart Beginning II/002-Element at and clear.md",
+    "Dashboard.md",
     "AI ML/00-Table of content/Table of content.md",
+    "Flutter/002-Basic Dart Beginning II/001-Dart Set.md",
+    "Flutter/001-Basic Dart Beginning I/016-List update and remove.md",
+    "Summer 2026/CGA Lab/004-Chair.md",
+    "Summer 2026/CGA Lab/003-Cube.md",
+    "Summer 2026/CGA Lab",
+    "Flutter/000-Table of content/Table of content.md",
+    "Flutter/002-Basic Dart Beginning II",
+    "Flutter/001-Basic Dart Beginning I/015-List insert items.md",
+    "Flutter/001-Basic Dart Beginning I/014-Fixed length list growable list.md",
+    "Flutter/000-Table of content",
     "AI ML/00-Table of content",
-    "Flutter/001-Basic Dart Beginning I/001-Hello-world.md",
     "Flutter/001-Basic Dart Beginning I",
     "Flutter",
-    "AI ML/020-Getting Started With Statistics/013-Covariance and Correlation.md",
     "AI ML/021-Introduction To Probability",
-    "AI ML/020-Getting Started With Statistics/012-Number Summary.md",
-    "AI ML/020-Getting Started With Statistics/011-Percentiles and Quartiles.md",
     "Untitled.base",
     "AI ML/020-Getting Started With Statistics",
     "Pasted image 20260728221146.png",
