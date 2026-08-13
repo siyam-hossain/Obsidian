@@ -139,5 +139,12 @@
   "Flutter/002-Basic Dart Beginning II/012-For in loop over set and json list.md": "LiFileText",
   "Flutter/002-Basic Dart Beginning II/013-While and do while loop.md": "LiFileText",
   "Flutter/002-Basic Dart Beginning II/014-Function define and call.md": "LiFileText",
-  "Flutter/002-Basic Dart Beginning II/015-Passing argument inside function.md": "LiFileText"
+  "Flutter/002-Basic Dart Beginning II/015-Passing argument inside function.md": "LiFileText",
+  "Flutter/003-OOP I": "TiFolder",
+  "Flutter/003-OOP I/001-Oop concept and class.md": "LiFileText",
+  "Flutter/003-OOP I/002-Access properties from class.md": "LiFileText",
+  "Flutter/003-OOP I/003-Access static properties from class.md": "LiFileText",
+  "Flutter/003-OOP I/004-Details on class constructor.md": "LiFileText",
+  "Flutter/003-OOP I/005-Dart this keyword.md": "LiFileText",
+  "Flutter/004-OOP II": "TiFolder"
 }

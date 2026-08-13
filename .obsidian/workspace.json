@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "ae70ae5d0e77e09c",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "61784ed238b604dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flutter/002-Basic Dart Beginning II/016-Function return and main function.md",
+                "file": "Flutter/004-OOP II/001-Inheritance concept.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "016-Function return and main function"
+              "title": "001-Inheritance concept"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "6bfd42fd6737acd9",
         "type": "tabs",
-        "dimension": 68.48484848484848,
+        "dimension": 61.67846309403438,
         "children": [
           {
             "id": "e0ce523928f2b376",
@@ -82,7 +82,7 @@
       {
         "id": "c4865f49fb41f5ba",
         "type": "tabs",
-        "dimension": 31.515151515151512,
+        "dimension": 38.32153690596562,
         "children": [
           {
             "id": "ba8efbae56b021b3",
@@ -240,10 +240,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "61784ed238b604dd",
   "lastOpenFiles": [
-    "Flutter/002-Basic Dart Beginning II/015-Passing argument inside function.md",
+    "Flutter/000-Table of content/Table of content.md",
+    "Flutter/004-OOP II/001-Inheritance concept.md",
+    "Flutter/004-OOP II",
+    "Flutter/003-OOP I/005-Dart this keyword.md",
+    "Flutter/003-OOP I/004-Details on class constructor.md",
+    "Flutter/003-OOP I/003-Access static properties from class.md",
+    "Flutter/003-OOP I/002-Access properties from class.md",
+    "Spring Boot/Part 1/003-Database-Integration/004-Changing The Database Schema.md",
+    "Flutter/003-OOP I/001-Oop concept and class.md",
+    "Dashboard.md",
+    "Flutter/003-OOP I",
     "Flutter/002-Basic Dart Beginning II/016-Function return and main function.md",
+    "Flutter/002-Basic Dart Beginning II/015-Passing argument inside function.md",
     "Flutter/002-Basic Dart Beginning II/014-Function define and call.md",
     "Flutter/001-Basic Dart Beginning I/005-Dart data types and numbers.md",
     "Flutter/001-Basic Dart Beginning I/004-Dart variable.md",
@@ -259,26 +270,15 @@
     "Flutter/002-Basic Dart Beginning II/004-Map add new element.md",
     "Flutter/002-Basic Dart Beginning II/003-Set properties.md",
     "Flutter/002-Basic Dart Beginning II/002-Element at and clear.md",
-    "Dashboard.md",
-    "AI ML/00-Table of content/Table of content.md",
-    "Flutter/002-Basic Dart Beginning II/001-Dart Set.md",
-    "Flutter/001-Basic Dart Beginning I/016-List update and remove.md",
-    "Summer 2026/CGA Lab/004-Chair.md",
-    "Summer 2026/CGA Lab/003-Cube.md",
     "Summer 2026/CGA Lab",
-    "Flutter/000-Table of content/Table of content.md",
     "Flutter/002-Basic Dart Beginning II",
-    "Flutter/001-Basic Dart Beginning I/015-List insert items.md",
-    "Flutter/001-Basic Dart Beginning I/014-Fixed length list growable list.md",
     "Flutter/000-Table of content",
     "AI ML/00-Table of content",
     "Flutter/001-Basic Dart Beginning I",
     "Flutter",
     "AI ML/021-Introduction To Probability",
     "Untitled.base",
-    "AI ML/020-Getting Started With Statistics",
     "Pasted image 20260728221146.png",
-    "Spring Boot/Part 1/003-Database-Integration",
     "Research/001-Pipe Line.canvas",
     "Spring Boot/Part 1/002-Dependency-Injection/007-UML diagram.png",
     "Untitled Diagram.drawio.png",
