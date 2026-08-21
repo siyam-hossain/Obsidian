@@ -1,10 +1,12 @@
 # UML
+
 A UML (**Unified Modeling Language**) diagram is a visual tool used to visualize and document complex systems.
 
 UML diagrams are broadly categorized into two main types:
 
 **1. Structure Diagrams**
-These diagrams represent the static structure of a system. 
+These diagrams represent the static structure of a system.
+
 - **Class Diagram:** Represents the classes within a system (such as "CEO," "Project," or "Employee") and the relationships or associations between them.
 
 **2. Behavior Diagrams**
