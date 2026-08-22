@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "aa0b64671b20ee35",
+        "id": "141a70dbad78de00",
         "type": "tabs",
         "children": [
           {
-            "id": "686eebe97d96cf11",
+            "id": "08033dc1712739d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Research/003-VLM Pipeline.md",
-                "mode": "source",
-                "source": false
+                "file": "Research/VLM pipeline.md"
               },
-              "icon": "lucide-file",
-              "title": "003-VLM Pipeline"
+              "icon": "excalidraw-icon",
+              "title": "VLM pipeline"
             }
           }
         ]
@@ -240,9 +238,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "686eebe97d96cf11",
+  "active": "e0ce523928f2b376",
   "lastOpenFiles": [
     "Dashboard.md",
+    "Research/VLM pipeline.md",
     "Research/003-VLM Pipeline.md",
     "Summer 2026/Advance Java/002-UML diagram.md",
     "Flutter/006-Flutter Essential Widgets/009-Tab bar tab view fragment.md",
@@ -269,7 +268,6 @@
     "Pasted Image 20260813132916_433.png",
     "Flutter/005-Flutter Beginning/001-Flutter core features.md",
     "Spring Boot/Part 1/003-Database-Integration/002-Creating Database Table.md",
-    "Spring Boot/Part 1/003-Database-Integration/001-Setting Up Spring Data JPA.md",
     "Flutter/005-Flutter Beginning",
     "Flutter/004-OOP II",
     "Flutter/003-OOP I",
